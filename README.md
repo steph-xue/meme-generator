@@ -21,7 +21,8 @@ Can access on: https://meme-generator-sx.netlify.app
     - Check the version using the command
         - ```npm --version```
 - Clone the repository from github by typing in the command line
-    - ```git clone <repo-url>```
+    - HTTPS: ```git clone https://github.com/steph-xue/meme-generator.git```
+    - SSH: ```git clone git@github.com:steph-xue/meme-generator.git```
 - Install any dependencies by using the command
     - ```npm install```
 - The web application can be run on your local server by typing the command
