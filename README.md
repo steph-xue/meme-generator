@@ -24,15 +24,10 @@ This project is a small, interactive website built to practice working with exte
 
 ## Features
 
-### Random Meme Image
-Clicking "Get a new meme image" selects a random template from the list fetched from the Imgflip API and displays it immediately. The page starts with a default meme image so there is always something to see before the button has been clicked.
+### Random Meme Image and Custom Text
+Clicking "Get a new meme image" selects a random template from the list fetched from the Imgflip API and displays it immediately, with a default meme image shown before the button has been clicked. Users can then type their own text into the "Top text" and "Bottom text" input fields, and the meme image updates in real time to display whatever has been entered, letting users caption any meme template with their own text.
 
 <p align="center"><img src="./images/meme-generator.png?raw=true" alt="Meme Generator" width="700"></p>
-
-<br>
-
-### Custom Top and Bottom Text
-Users can type their own text into the "Top text" and "Bottom text" input fields, and the meme image updates in real time to display whatever has been entered, letting users caption any meme template with their own text.
 
 <br>
 
