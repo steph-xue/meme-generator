@@ -1,29 +1,96 @@
-# Meme Generator Project
+# Meme Generator
 
-The meme generator project is a dynamic web application built using the front-end JavaScript library, React. The meme generator makes a call to the API "https://api.imgflip.com/get_memes" to get a selection of memes. When the user clicks the "get a new meme image" button, a new meme image is retrieved to be displayed on the user interface of the web application. Then the user can type in their choice of top and bottom text to be displayed on the meme image.
+An interactive website built with React that lets users generate a random meme and overlay their own custom top and bottom text on it. Meme images come from the Imgflip API, and the text updates on the page as the user types.
 
-Can access on: https://meme-generator-sx.netlify.app
+**[View Live Demo](https://meme-generator-sx.netlify.app)**
 
-![Meme Generatorl](./images/meme-generator.png?raw=true "Meme Generator")
-<br></br>
+<br>
 
-## Languages & Frameworks
-- The react info project was created using React, a front-end JavaScript web libary
-  - React uses JSX, which is an XML-like extension to the JavaScript language that lets you write HTML-like markup inside a JavaScript file
-- Vite was also used as a build tool to create the web application
-  - Vite is a local development server that has support for frameworks like React and Vue.js, and programming languages like JavaScript and TypeScript 
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [How It Works](#how-it-works)
+- [Getting Started](#getting-started)
+- [Future Improvements](#future-improvements)
 
-## How to Run Locally
-- Install the latest version of node.js (JavaScript runtime server)
-    - Check the version using the command
-        - ```node --version```
-- Install the latest version of npm (JavaScript package manager)
-    - Check the version using the command
-        - ```npm --version```
-- Clone the repository from github by typing in the command line
-    - HTTPS: ```git clone https://github.com/steph-xue/meme-generator.git```
-    - SSH: ```git clone git@github.com:steph-xue/meme-generator.git```
-- Install any dependencies by using the command
-    - ```npm install```
-- The web application can be run on your local server by typing the command
-    - ```npm run dev```
+<br>
+
+## Overview
+
+This project is a small, interactive website built to practice working with external APIs and managing form state in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. When the page loads, the application fetches a list of meme templates from the Imgflip API and stores them in state, so a new template can be selected instantly at any time without a repeat network request. Text entered into the top and bottom fields updates the meme image live as the user types, since both are controlled inputs tied directly to the component's state.
+
+<br>
+
+## Features
+
+### Random Meme Image
+Clicking "Get a new meme image" selects a random template from the list fetched from the Imgflip API and displays it immediately. The page starts with a default meme image so there is always something to see before the button has been clicked.
+
+<p align="center"><img src="./images/meme-generator.png?raw=true" alt="Meme Generator" width="700"></p>
+
+<br>
+
+### Custom Top and Bottom Text
+Users can type their own text into the "Top text" and "Bottom text" input fields, and the meme image updates in real time to display whatever has been entered, letting users caption any meme template with their own text.
+
+<br>
+
+## Tech Stack
+
+| Layer | Technologies |
+|---|---|
+| Frontend | React, JavaScript, HTML, CSS |
+| Build Tool | Vite |
+
+<br>
+
+## How It Works
+
+The interface is built from two components, a header and a meme component, rendered from a single root component. When the meme component first mounts, it fetches the full list of available meme templates from the Imgflip API and stores the result in state, so the list only needs to be requested once per visit. Clicking the button to get a new image picks a random entry from that stored list and updates the displayed image accordingly. The top and bottom text inputs are controlled components, meaning each keystroke updates the component's state and the meme image re-renders immediately to reflect the current text. Vite handles the local development server and production build, compiling the React components into static files that can be deployed anywhere.
+
+<br>
+
+## Getting Started
+
+Follow the steps below to set up and run the application on your own machine.
+
+**Prerequisites**
+
+Make sure Node.js and npm are installed before you begin. You can check both by running the commands below, which should each print a version number.
+```bash
+node --version
+npm --version
+```
+
+**1. Clone the repository**
+
+This downloads a copy of the project to your computer and moves you into the project folder.
+```bash
+git clone https://github.com/steph-xue/meme-generator.git
+cd meme-generator
+```
+
+**2. Install the dependencies**
+
+This installs React and everything else the project needs to run.
+```bash
+npm install
+```
+
+**3. Start the development server**
+
+This runs the application locally with Vite.
+```bash
+npm run dev
+```
+
+Once the server is running, open the local URL shown in the terminal to start using the application.
+
+<br>
+
+## Future Improvements
+Several enhancements are planned to extend the functionality of the application:
+- The ability to search for a specific meme template by name
+- Downloading or sharing the finished meme image directly from the page
+- Adjustable text size, color, and position on the meme image
