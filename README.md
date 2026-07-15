@@ -36,6 +36,7 @@ Clicking "Get a new meme image" selects a random template from the list fetched 
 | Layer | Technologies |
 |---|---|
 | Frontend | React, JavaScript, HTML, CSS |
+| APIs | Imgflip API |
 | Build Tool | Vite |
 
 <br>
