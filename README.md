@@ -1,6 +1,6 @@
 # Meme Generator
 
-An interactive website built with React that lets users generate a random meme and overlay their own custom top and bottom text on it. Meme images come from the Imgflip API, and the text updates on the page as the user types.
+An interactive web application built with React that lets users generate a random meme and overlay their own custom top and bottom text on it. Meme images come from the Imgflip API, and the text updates on the page as the user types.
 
 **[View Live Demo](https://meme-generator-sx.netlify.app)**
 
@@ -18,7 +18,7 @@ An interactive website built with React that lets users generate a random meme a
 
 ## Overview
 
-This project is a small, interactive website built to practice working with external APIs and managing form state in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. When the page loads, the application fetches a list of meme templates from the Imgflip API and stores them in state, so a new template can be selected instantly at any time without a repeat network request. Text entered into the top and bottom fields updates the meme image live as the user types, since both are controlled inputs tied directly to the component's state.
+This project is a small, interactive web application built to practice working with external APIs and managing form state in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. When the page loads, the application fetches a list of meme templates from the Imgflip API and stores them in state, so a new template can be selected instantly at any time without a repeat network request. Text entered into the top and bottom fields updates the meme image live as the user types, since both are controlled inputs tied directly to the component's state.
 
 <br>
 
@@ -42,7 +42,7 @@ Clicking "Get a new meme image" selects a random template from the list fetched 
 
 ## How It Works
 
-The interface is built from two components, a header and a meme component, rendered from a single root component. When the meme component first mounts, it fetches the full list of available meme templates from the Imgflip API and stores the result in state, so the list only needs to be requested once per visit. Clicking the button to get a new image picks a random entry from that stored list and updates the displayed image accordingly. The top and bottom text inputs are controlled components, meaning each keystroke updates the component's state and the meme image re-renders immediately to reflect the current text. Vite handles the local development server and production build, compiling the React components into static files that can be deployed anywhere.
+The interface is built from two components, a header and a meme component, rendered from a single root component. When the meme component first mounts, it fetches the full list of available meme templates from the Imgflip API and stores the result in state, so the list only needs to be requested once per visit. Clicking the button to get a new image picks a random entry from that stored list and updates the displayed image accordingly. The top and bottom text inputs are controlled components, meaning each keystroke updates the component's state and the meme image re-renders immediately to reflect the current text. Vite handles the local development server and production build, compiling the React components into files that can be deployed anywhere.
 
 <br>
 
