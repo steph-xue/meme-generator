@@ -1,6 +1,6 @@
 # Meme Generator
 
-An interactive web application built with React that lets users generate a random meme and overlay their own custom top and bottom text on it. Meme images come from the Imgflip API, and the text updates on the page as the user types.
+An interactive web application built with React that lets users generate a random meme and overlay their own custom top and bottom text on it. Meme images come from the Imgflip API, and users can type directly on the page to update the meme text.
 
 **[View Live Demo](https://meme-generator-sx.netlify.app)**
 
