@@ -18,7 +18,7 @@ An interactive web application that lets users generate a random meme and overla
 
 ## Overview
 
-This project is a small, interactive web application built to practice working with external APIs and managing form state in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. When the page loads, the application fetches a list of meme templates from the Imgflip API and stores them in state, so a new template can be selected instantly at any time without a repeat network request. Text entered into the top and bottom fields updates the meme image live as the user types, since both are controlled inputs tied directly to the component's state.
+This project is a web application that allows users to generate memes by selecting random image templates and adding custom top and bottom text. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. The application retrieves a collection of meme templates from the Imgflip API and stores them in state, allowing a new image to be displayed instantly without making another request. The text fields are controlled inputs that update the captions on the meme in real time as the user types.
 
 <br>
 
