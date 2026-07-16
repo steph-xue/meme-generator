@@ -1,8 +1,18 @@
-# Meme Generator
+<h1 align="center">
+  Meme Generator
+</h1>
 
-An interactive web application that lets users create custom memes using randomized image templates from the Imgflip API. Users can add custom top and bottom text captions that update directly on the meme in real time as they type.
+<h4 align="center">
+  An interactive web application that lets users create custom memes using randomized image templates from the Imgflip API. Users can add custom top and bottom text captions that update directly on the meme in real time as they type.
+</h4>
 
-**[View Live Demo](https://meme-generator-sx.netlify.app)**
+<p align="center">
+  <img src="./images/meme-generator.png?raw=true" alt="Meme Generator" width="500">
+</p>
+
+<p align="center">
+  <a href="https://meme-generator-sx.netlify.app">View Live Demo</a>
+</p>
 
 <br>
 
@@ -18,7 +28,7 @@ An interactive web application that lets users create custom memes using randomi
 
 ## Overview
 
-This project allows users to create custom memes by generating randomized image templates and adding personalized top and bottom text captions. It is built with React, JavaScript, HTML, and CSS, and uses Vite as the build tool. The project retrieves a collection of meme templates from the Imgflip API and stores them in state, allowing new images to be displayed instantly without additional requests. Controlled text inputs update the captions directly on the meme in real time as the user types.
+This project allows users to create custom memes using randomized image templates from the Imgflip API and personalized top and bottom text captions. It is built with React, JavaScript, HTML, and CSS and uses Vite as the build tool. The application retrieves a collection of meme templates from the API and stores them in state, allowing users to generate new images instantly without making additional requests. Controlled text inputs update the captions directly on the meme in real time as the user types.
 
 <br>
 
