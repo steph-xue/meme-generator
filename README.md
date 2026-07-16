@@ -11,8 +11,8 @@ An interactive web application that lets users create custom memes using randomi
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [How It Works](#how-it-works)
-- [Getting Started](#getting-started)
 - [Future Improvements](#future-improvements)
+- [Getting Started](#getting-started)
 
 <br>
 
@@ -44,6 +44,14 @@ Clicking "Get a new meme image" selects a random template from the list fetched 
 ## How It Works
 
 The interface is built from two components, a header and a meme component, rendered from a single root component. When the meme component first mounts, it fetches the full list of available meme templates from the Imgflip API and stores the result in state, so the list only needs to be requested once per visit. Clicking the button to get a new image picks a random entry from that stored list and updates the displayed image accordingly. The top and bottom text inputs are controlled components, meaning each keystroke updates the component's state and the meme image re-renders immediately to reflect the current text. Vite handles the local development server and production build, compiling the React components into files that can be deployed anywhere.
+
+<br>
+
+## Future Improvements
+Several enhancements are planned to extend the functionality of the application:
+- The ability to search for a specific meme template by name
+- Downloading or sharing the finished meme image directly from the page
+- Adjustable text size, color, and position on the meme image
 
 <br>
 
@@ -82,11 +90,3 @@ npm run dev
 ```
 
 Once the server is running, open the local URL shown in the terminal to start using the application.
-
-<br>
-
-## Future Improvements
-Several enhancements are planned to extend the functionality of the application:
-- The ability to search for a specific meme template by name
-- Downloading or sharing the finished meme image directly from the page
-- Adjustable text size, color, and position on the meme image
