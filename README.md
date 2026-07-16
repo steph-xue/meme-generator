@@ -3,7 +3,8 @@
 </h1>
 
 <h4 align="center">
-  An interactive web application for creating custom memes using randomly selected images with personalized top and bottom text captions.
+  An interactive web application for creating custom memes using randomly selected images <br>
+  with personalized top and bottom text captions.
 </h4>
 
 <p align="center">
