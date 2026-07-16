@@ -32,11 +32,11 @@ Clicking "Get a new meme image" selects a random template from the list fetched 
 <br>
 
 ## Tech Stack
-
+ 
 | Layer | Technologies |
 |---|---|
 | Frontend | React, JavaScript, HTML, CSS |
-| APIs | Imgflip API |
+| APIs | Imgflip API (supplies the list of meme templates to choose from) |
 | Build Tool | Vite |
 
 <br>
