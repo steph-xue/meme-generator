@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  An interactive web application that lets users create custom memes using randomized image templates from the Imgflip API. Users can add custom top and bottom text captions that update directly on the meme in real time as they type.
+  An interactive web application for creating custom memes using randomly selected images with personalized top and bottom text captions.
 </h4>
 
 <p align="center">
