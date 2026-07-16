@@ -28,7 +28,7 @@
 
 ## Overview
 
-This project allows users to create custom memes using randomized image templates from the Imgflip API and personalized top and bottom text captions. It is built with React, JavaScript, HTML, and CSS and uses Vite as the build tool. The application retrieves a collection of meme templates from the API and stores them in state, allowing users to generate new images instantly without making additional requests. Controlled text inputs update the captions directly on the meme in real time as the user types.
+This project allows users to create custom memes by generating randomized image templates and adding personalized top and bottom text captions. It is built with React, JavaScript, HTML, and CSS and uses Vite as the build tool. The application retrieves a collection of meme templates from the Imgflip API and stores them in state, allowing new images to be displayed instantly without making additional requests. Controlled text inputs update the captions directly on the meme in real time as the user types.
 
 <br>
 
