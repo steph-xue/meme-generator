@@ -7,7 +7,7 @@
 </h4>
 
 <p align="center">
-  <img src="./images/meme-generator.png?raw=true" alt="Meme Generator" width="500">
+  <img src="docs/screenshots/meme-generator.png?raw=true" alt="Meme Generator" width="500">
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ This project allows users to create custom memes by generating randomized image 
 ### Random Meme Image and Custom Text
 Clicking "Get a new meme image" selects a random template from the list fetched from the Imgflip API and displays it immediately, with a default meme image shown before the button has been clicked. Users can then type their own text into the "Top text" and "Bottom text" input fields, and the meme image updates in real time to display whatever has been entered, letting users caption any meme template with their own text.
 
-<p align="center"><img src="./images/meme-generator.png?raw=true" alt="Meme Generator" width="700"></p>
+<p align="center"><img src="docs/screenshots/meme-generator.png?raw=true" alt="Meme Generator" width="700"></p>
 
 <br>
 
