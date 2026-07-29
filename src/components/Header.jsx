@@ -1,3 +1,4 @@
+// Displays the app title and logo image
 function Header() {
     return (
         <header className="header">

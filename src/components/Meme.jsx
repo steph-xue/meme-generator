@@ -1,5 +1,6 @@
 import React from "react"
 
+// Renders the meme form and generated meme image
 function Meme() {
 
     const [meme, setMeme] = React.useState({
@@ -16,6 +17,7 @@ function Meme() {
             .then(data => setAllMemes(data.data.memes))
     }, [])
     
+    // Selects a random meme template from the fetched list
     function getMemeImage() {
         const randomNumber = Math.floor(Math.random() * allMemes.length)
         const url = allMemes[randomNumber].url
@@ -25,6 +27,7 @@ function Meme() {
         }))
     }
     
+    // Updates meme state as the user types in the text inputs
     function handleChange(event) {
         const {name, value} = event.target
         setMeme(prevMeme => ({
